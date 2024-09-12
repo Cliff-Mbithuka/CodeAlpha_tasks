@@ -1,12 +1,61 @@
-Day
-DD
+<main>
+  <div class="card">
+    <form>
+      <div class="container">
+        <label for="day">
+          <span>DAY</span>
+          <input type="number" id="day" placeholder="DD" autocomplete="off" />
+          <span class="error__day"></span>
+        </label>
+        <label for="month">
+          <span>MONTH</span>
+          <input type="number" id="month" placeholder="MM" autocomplete="off" />
+          <span class="error__month"></span>
+        </label>
+        <label for="year">
+          <span>YEAR</span>
+          <input
+            type="number"
+            id="year"
+            placeholder="YYYY"
+            autocomplete="off"
+          />
+          <span class="error__year"></span>
+        </label>
+      </div>
+      <div class="btn">
+        <button type="submit">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="44"
+            viewBox="0 0 46 44"
+            role="img"
+            title="Submit"
+          >
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path
+                d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </form>
 
-Month
-MM
-
-Year
-YYYY
-
--- years
--- months
--- days
+    <section class="results">
+      <h1 class="results__year">
+        <span class="lines lines__year">--</span>
+        Years
+      </h1>
+      <h1 class="results__month">
+        <span class="lines lines__month">--</span>
+        Months
+      </h1>
+      <h1 class="results__day">
+        <span class="lines lines__day">--</span>
+        Days
+      </h1>
+    </section>
+  </div>
+</main>
