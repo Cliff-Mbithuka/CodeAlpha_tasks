@@ -29,7 +29,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "public/assets/age.component.js"
+            ]
           },
           "configurations": {
             "production": {
