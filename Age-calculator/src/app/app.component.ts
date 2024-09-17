@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import ageComponent from './age.component';
+import ageComponent from './age/age.component';
 
 @Component({
   selector: 'app-root',
