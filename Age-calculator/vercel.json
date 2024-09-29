@@ -1,7 +1,7 @@
 {
     "builds": [
       {
-        "src": "dist/age-calculator/**",
+        "src": "dist/age-calculator/**/*",
         "use": "@vercel/static"
       }
     ],
@@ -12,5 +12,4 @@
       }
     ]
   }
-  
   
