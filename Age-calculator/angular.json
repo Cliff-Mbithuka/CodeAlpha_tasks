@@ -30,7 +30,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "public/assets/age.component.js"
+               "public/assets/age.component.js"
             ]
           },
           "configurations": {

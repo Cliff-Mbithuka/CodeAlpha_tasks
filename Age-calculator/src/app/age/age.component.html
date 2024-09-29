@@ -1,26 +1,21 @@
 <main>
   <div class="card">
-    <form class="card-form">
+    <form class="card-form" #form>
       <div class="container">
         <label for="day">
           <span>DAY</span>
-          <input type="number" id="day" placeholder="DD" autocomplete="off" />
-          <span class="error__day"></span>
+          <input type="number" id="day" placeholder="DD" autocomplete="off" #dayInput />
+          <span class="error__day" #errorDay></span>
         </label>
         <label for="month">
           <span>MONTH</span>
-          <input type="number" id="month" placeholder="MM" autocomplete="off" />
-          <span class="error__month"></span>
+          <input type="number" id="month" placeholder="MM" autocomplete="off" #monthInput />
+          <span class="error__month" #errorMonth></span>
         </label>
         <label for="year">
           <span>YEAR</span>
-          <input
-            type="number"
-            id="year"
-            placeholder="YYYY"
-            autocomplete="off"
-          />
-          <span class="error__year"></span>
+          <input type="number" id="year" placeholder="YYYY" autocomplete="off" #yearInput />
+          <span class="error__year" #errorYear></span>
         </label>
       </div>
       <div class="btn">
@@ -45,18 +40,17 @@
 
     <section class="results">
       <h1 class="results__year">
-        <span class="lines lines__year">--</span>
+        <span class="lines lines__year" #resultYear>--</span>
         Years
       </h1>
       <h1 class="results__month">
-        <span class="lines lines__month">--</span>
+        <span class="lines lines__month" #resultMonth>--</span>
         Months
       </h1>
       <h1 class="results__day">
-        <span class="lines lines__day">--</span>
+        <span class="lines lines__day" #resultDay>--</span>
         Days
       </h1>
     </section>
   </div>
- 
 </main>

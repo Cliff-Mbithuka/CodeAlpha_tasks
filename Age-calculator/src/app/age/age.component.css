@@ -78,7 +78,7 @@ main {
   .error__day,
 .error__month,
 .error__year {
-  color: var(--light-red);
+  color: red;
   font-size: 0.8rem;
   font-style: italic;
   margin-top: 0.5rem;
