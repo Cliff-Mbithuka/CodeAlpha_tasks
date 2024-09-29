@@ -1,15 +1,16 @@
 {
     "builds": [
       {
-        "src": "src/main.ts",
-        "use": "@vercel/angular"
+        "src": "dist/age-calculator/**",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/index.html"
-          }
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
     ]
   }
+  
   
